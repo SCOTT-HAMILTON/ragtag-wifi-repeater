@@ -5,8 +5,8 @@ services:
     image: bh.cr/gh_scott_hamilton/wifi-repeater-block
     privileged: true
     network_mode: host
+    labels:
+      io.balena.features.dbus: '1'
 
   balena-fox-backup:
     image: bh.cr/gh_scott_hamilton/balena-fox-backup
-
-
