@@ -1,0 +1,34 @@
+name: Ragtag WiFi Repeater
+description: test
+version: 2.5.1
+type: sw.block
+joinable: false
+
+post-provisioning: >-
+  ## Usage instructions
+  After flashing your device allow some time for the application to download.
+
+  WiFi Repeater will automatically scan your network and check each device's capabilities. It will then attempt to configure the devices to work in `Access Point` mode and if that is not possible it will switch to `Repeater` mode. You *do not* need to pre configure the device to work in either mode.
+
+  Visit https://github.com/balena-labs-projects/wifi-repeater for configuration details.
+  
+  Other blocks can be added at will in the docker-compose.yml
+
+assets:
+  repository:
+    type: "blob.asset"
+    data:
+      url: "https://github.com/SCOTT-HAMILTON/ragtag-wifi-repeater"
+  logo:
+    type: "blob.asset"
+    data:
+      url: "https://raw.githubusercontent.com/balena-labs-projects/wifi-repeater/mast\
+        er/logo.png"
+data:
+  applicationEnvironmentVariables:
+    - AP_SSID: "WiFi Repeater"
+    - AP_PASSWORD: "charlietheunicorn"
+  defaultDeviceType: "raspberrypi3"
+  supportedDeviceTypes:
+    - "raspberrypi3"
+    - "raspberrypi4-64"
