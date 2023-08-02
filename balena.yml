@@ -28,6 +28,7 @@ data:
   applicationEnvironmentVariables:
     - AP_SSID: "WiFi Repeater"
     - AP_PASSWORD: "charlietheunicorn"
+    - RESTIC_S3_REPO_PASSWORD: "charlietheunicorn"
   defaultDeviceType: "raspberrypi3"
   supportedDeviceTypes:
     - "raspberrypi3"

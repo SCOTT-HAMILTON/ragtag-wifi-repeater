@@ -9,4 +9,5 @@ services:
       io.balena.features.dbus: '1'
 
   balena-fox-backup:
-    image: bh.cr/gh_scott_hamilton/balena-fox-backup
+    build: balena-fox-backup
+    privileged: true
