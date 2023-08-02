@@ -1,6 +1,6 @@
 name: Ragtag WiFi Repeater
-description: test
-version: 2.5.1
+description: Wifi repeater balena app with modular capabilities
+version: 0.0.0
 type: sw.block
 joinable: false
 
