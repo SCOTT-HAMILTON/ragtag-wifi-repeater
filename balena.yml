@@ -29,6 +29,7 @@ data:
     - AP_SSID: "WiFi Repeater"
     - AP_PASSWORD: "charlietheunicorn"
     - RESTIC_S3_REPO_PASSWORD: "charlietheunicorn"
+    - FOX_BACKUP_CONF: "eyJzaWdmb3giOnsibG9naW4iOiIqKioqKioqKioqKioqKioqKioqKioqKioiLCJwYXNzd29yZCI6IioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqIiwiZGV2aWNlSWQiOiIqKioqKioqIn0sInMzIjp7ImVuZHBvaW50IjoiaHR0cHM6Ly9zMy5teWhvc3QuY29tIiwiYWNjZXNzS2V5SWQiOiIqKioqKioqKioqKioqKioqKioqKiIsInNlY3JldEFjY2Vzc0tleSI6IioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioiLCJidWNrZXROYW1lIjoibXlidWNrZXQifX0K"
   defaultDeviceType: "raspberrypi3"
   supportedDeviceTypes:
     - "raspberrypi3"
