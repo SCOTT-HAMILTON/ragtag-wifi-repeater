@@ -1,0 +1,3 @@
+[submodule "balena-fox-backup"]
+    path = balena-fox-backup
+    url = https://github.com/SCOTT-HAMILTON/balena-fox-backup.git
