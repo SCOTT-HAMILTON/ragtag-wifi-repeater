@@ -4,3 +4,6 @@
 [submodule "balena-ntfy"]
 	path = balena-ntfy
 	url = https://github.com/SCOTT-HAMILTON/balena-ntfy
+[submodule "balena-ankisync"]
+	path = balena-ankisync
+	url = https://github.com/SCOTT-HAMILTON/balena-ankisync
