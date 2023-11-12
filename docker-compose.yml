@@ -11,3 +11,20 @@ services:
   balena-fox-backup:
     build: balena-fox-backup
     privileged: true
+
+  balena-ntfy:
+    build: balena-ntfy
+    privileged: false
+    volumes:
+      - ntfy-data:/var/lib/ntfy-db-data
+    ports:
+      - "46975:8080"
+
+  balena-ankisync:
+    build: balena-ankisync
+    privileged: false
+    ports:
+      - "25888:8080"
+
+volumes:
+  ntfy-data:
