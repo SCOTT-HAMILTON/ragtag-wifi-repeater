@@ -7,3 +7,6 @@
 [submodule "balena-ankisync"]
 	path = balena-ankisync
 	url = https://github.com/SCOTT-HAMILTON/balena-ankisync
+[submodule "chunkdrive"]
+	path = chunkdrive
+	url = git@github.com:SCOTT-HAMILTON/chunkdrive.git
