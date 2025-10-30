@@ -1,6 +1,6 @@
 [submodule "balena-fox-backup"]
-    path = balena-fox-backup
-    url = https://github.com/SCOTT-HAMILTON/balena-fox-backup.git
+	path = balena-fox-backup
+	url = https://github.com/SCOTT-HAMILTON/balena-fox-backup
 [submodule "balena-ntfy"]
 	path = balena-ntfy
 	url = https://github.com/SCOTT-HAMILTON/balena-ntfy
